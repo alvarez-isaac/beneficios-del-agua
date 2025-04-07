@@ -1,0 +1,72 @@
+/*fuetes titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*fuente cuerpo*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0px;
+}
+
+nav img {
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 19px;
+  background-color: #bfd1d9;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.images img {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+
+  .container_2{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .titulos {
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    margin: 20px;
+  }
